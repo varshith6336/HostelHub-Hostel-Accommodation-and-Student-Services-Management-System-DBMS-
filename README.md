@@ -2,12 +2,18 @@
 
 **DBMS Project 06**
 
-## Files
-- `index.html`: current standalone website demo.
-- `database/hostelhub.sql`: MySQL schema.
-- `backend/app.py`: starter Flask API with MySQL health check and student list/create endpoints.
-- `backend/requirements.txt`: Python dependencies.
-- `report/`: project report, if included in this package.
+## Project files
+- [`index.html`](index.html) — standalone HostelHub website demo.
+- [`database/hostelhub.sql`](database/hostelhub.sql) — MySQL database schema.
+- [`backend/app.py`](backend/app.py) — starter Flask API.
+- [`backend/requirements.txt`](backend/requirements.txt) — Python dependencies.
+- [`report/Hostel_DBMS_PBL_Report_HostelHub.docx`](report/Hostel_DBMS_PBL_Report_HostelHub.docx) — project report, if included in this repository.
+- [`HostelHub_DBMS_Presentation.pptx`](HostelHub_DBMS_Presentation.pptx) — project presentation slides.
+
+## Project presentation
+[**Open or download the HostelHub DBMS presentation (.pptx)**](HostelHub_DBMS_Presentation.pptx)
+
+To view it, download the PowerPoint file from this repository and open it with Microsoft PowerPoint or another compatible presentation app. GitHub may not display the slides directly in its code viewer.
 
 ## Website demo
 Open `index.html` in a browser or publish it with GitHub Pages. The current frontend uses in-browser sample data. Its forms are **not yet connected to the Flask API**, so changes are temporary and are not stored in MySQL.
@@ -32,4 +38,5 @@ python app.py
 Visit `http://127.0.0.1:5000/api/health` and `http://127.0.0.1:5000/api/students`. API routes currently cover health, listing students, and creating students only. The frontend still needs to be wired to the API and all CRUD flows tested before claiming full integration.
 
 ## GitHub Pages
-In repository Settings → Pages, choose Deploy from a branch, `main`, and `/(root)`. GitHub Pages hosts the static frontend only; it does not host Flask or MySQL. Never upload `.env` files or database passwords.
+In repository **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/(root)`. GitHub Pages hosts the static frontend only; it does not host Flask or MySQL. Never upload `.env` files or database passwords.
+
