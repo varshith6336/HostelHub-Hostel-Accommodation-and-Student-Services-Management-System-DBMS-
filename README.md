@@ -1,42 +1,60 @@
-# HostelHub — Hostel Accommodation & Student Services Management System
+# HostelHub --- Hostel Accommodation & Student Services Management System
 
-**DBMS Project 06**
+**DBMS Project 06**\
+**Student:** Navari Varshith Reddy\
+**Roll No.:** 25WU0102181\
+**Mentor:** Dr. Cheekati Nagaraju\
+**University:** Woxsen University
 
-## Project files
-- [`index.html`](index.html) — standalone HostelHub website demo.
-- [`database/hostelhub.sql`](database/hostelhub.sql) — MySQL database schema.
-- [`backend/app.py`](backend/app.py) — starter Flask API.
-- [`backend/requirements.txt`](backend/requirements.txt) — Python dependencies.
-- [`report/Hostel_DBMS_PBL_Report_HostelHub.docx`](report/Hostel_DBMS_PBL_Report_HostelHub.docx) — project report, if included in this repository.
-- [`HostelHub_DBMS_Presentation.pptx`](HostelHub_DBMS_Presentation.pptx) — project presentation slides.
+## Project Overview
 
-## Project presentation
-[**Open or download the HostelHub DBMS presentation (.pptx)**](HostelHub_DBMS_Presentation.pptx)
+HostelHub is a hostel accommodation and student-services management
+interface designed to organize student records, rooms and beds, bed
+allocations, complaints, visitor entries, and reports.
 
-To view it, download the PowerPoint file from this repository and open it with Microsoft PowerPoint or another compatible presentation app. GitHub may not display the slides directly in its code viewer.
+## Project Presentation
 
-## Website demo
-Open `index.html` in a browser or publish it with GitHub Pages. The current frontend uses in-browser sample data. Its forms are **not yet connected to the Flask API**, so changes are temporary and are not stored in MySQL.
+[**Open or download the HostelHub DBMS Presentation
+(.pptx)**](./HostelHub_DBMS_Presentation.pptx)
 
-## Create the database
-1. Open MySQL Workbench and connect to your MySQL Server.
-2. Open `database/hostelhub.sql` and execute it.
-3. Refresh Schemas and check for `hostelhub`.
+> Keep `HostelHub_DBMS_Presentation.pptx` in the same root folder as
+> this `README.md`. The link must match the uploaded filename exactly.
 
-## Run the starter API locally
-Install Python 3.10+, open a terminal in `backend`, then run `pip install -r requirements.txt`. In PowerShell set your own credentials (do not commit passwords):
+## Main Features
 
-```powershell
-$env:DB_HOST="127.0.0.1"
-$env:DB_PORT="3306"
-$env:DB_NAME="hostelhub"
-$env:DB_USER="your_mysql_username"
-$env:DB_PASSWORD="your_mysql_password"
-python app.py
-```
+-   Dashboard with hostel summary information
+-   Student directory
+-   Room and bed inventory
+-   Bed allocation interface
+-   Complaints and maintenance tracking
+-   Visitor log
+-   Reports and summary figures
 
-Visit `http://127.0.0.1:5000/api/health` and `http://127.0.0.1:5000/api/students`. API routes currently cover health, listing students, and creating students only. The frontend still needs to be wired to the API and all CRUD flows tested before claiming full integration.
+## Technologies
 
-## GitHub Pages
-In repository **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/(root)`. GitHub Pages hosts the static frontend only; it does not host Flask or MySQL. Never upload `.env` files or database passwords.
+-   HTML
+-   CSS
+-   JavaScript
+-   Python Flask starter API
+-   MySQL database schema
 
+## Repository Files
+
+-   `index.html` --- HostelHub website interface
+-   `app.py` --- Starter Flask API
+-   `requirements.txt` --- Python dependencies
+-   `database/hostelhub.sql` --- MySQL schema (upload this file if it is
+    not already in the repository)
+-   `HostelHub_DBMS_Presentation.pptx` --- Project presentation
+
+## Important Note
+
+The website is currently a demonstration frontend using sample data in
+browser memory. The frontend is not yet connected to the MySQL database,
+and the Flask API requires configuration and deployment before it can be
+used online.
+
+## How to View the Website
+
+Open `index.html` in a web browser, or configure GitHub Pages in the
+repository settings to publish the static frontend.
