@@ -1,18 +1,10 @@
-# Hostel Accommodation & Student Services Management System
+# HostelHub --- Hostel Accommodation & Student Services Management System
 
-**HostelHub --- Database Management Systems (DBMS) Project 06**
-
-## Student Details
-
-  Field              Details
-  ------------------ -----------------------
-  **Student Name**   Navari Varshith Reddy
-  **Roll Number**    25WU0102181
-  **Mentor**         Dr. Cheekati Nagaraju
-  **University**     Woxsen University
-  **Project Date**   13 October 2026
-
-------------------------------------------------------------------------
+**DBMS Project 06**\
+**Student:** Navari Varshith Reddy\
+**Roll No.:** 25WU0102181\
+**Mentor:** Dr. Cheekati Nagaraju\
+**University:** Woxsen University
 
 ## Project Overview
 
